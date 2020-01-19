@@ -26,3 +26,4 @@ $dashboard-theme: mat-light-theme($dashboard-primary, $dashboard-accent, $dashbo
 // that you are using.
 @include angular-material-theme($dashboard-theme);
 
+.navbar-expand-lg .navbar-nav .dropdown-menu{left: -68px;}
